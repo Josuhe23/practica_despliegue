@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         nodejs "NodeJs24" // Configura una instalación de Node.js en Jenkins
-        dockerTool 'dockertool'  // Cambia el nombre de la herramienta según tu configuración en Jenkins
+        dockerTool 'dockertools'  // Cambia el nombre de la herramienta según tu configuración en Jenkins
     }
 
     stages {
