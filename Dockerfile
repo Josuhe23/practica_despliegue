@@ -11,6 +11,9 @@ COPY index.js .
 # Instalar dependencias
 RUN npm install
 
+#Users
+COPY users.js .
+
 # Exponer el puerto de la aplicación
 EXPOSE 3000
 
